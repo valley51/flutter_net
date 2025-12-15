@@ -11,21 +11,20 @@ version: 2.0.3
 homepage: https://github.com/yuexunshi/flutter_net
 
 environment:
-  sdk: '>=2.19.3 <4.0.0'
-  flutter: ">=1.17.0"
+  sdk: '>=3.0.3 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
   dio: ^5.9.0
   pretty_dio_logger: ^1.4.0
-  freezed_annotation: ^2.2.0
-  connectivity_plus: ^7.0.0
+  freezed_annotation: ^3.1.0
+  # connectivity_plus: ^7.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.2
+  flutter_lints: ^6.0.0
 
 platforms:
   android:
